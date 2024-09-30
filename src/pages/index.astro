@@ -1,15 +1,63 @@
 ---
 import MainLayout from "../layouts/MainLayout.astro";
-import Button from '../components/Button.astro';
-import Link from '../components/Link.astro';
-import { Image } from 'astro:assets';
-import thumbsup from "../assets/images/thumbsup.png";
 ---
-<MainLayout title="Titel">
-	<article>
-		<h1>Index overskrift</h1>
-		<Button>Klik!</Button>
-		<p>Link til <Link href="https://www.kea.dk" target="_blank">En anden side</Link></p>
-		<Image src={thumbsup} alt=""></Image>
-	</article>
+<MainLayout title="Historian bakom Glam Rock"
+description="Historien om Glamrock. Glamrockens Ursprung. Marc Bolan. Ziggy Stardust, David Bowie. Queen. Elton John. "
+ogtitle="Glamrockens Ursprung - 30. september 2024."
+ogdescription="Lär om det glam rock och dens historia och ursprung. Glam rock växte ut Englands psykedeliska och art rock-scener under slutet av 1960-talet. Glam rocken anses både vara en förlängning och en reaktion mot dessa trender">
+
+<article class="grid mx-auto container gap-8 pt-8 prose">
+    <h1>Historien om Glamrock</h1>
+<img src="/glamrock.png" alt="Glamrock">
+    <h2>Glamrockens Ursprung</h2>
+    <p>
+        Glamrock växte fram ur Englands psykedeliska och art rock-scener under slutet av 1960-talet. Det anses både vara en förlängning och en reaktion mot dessa trender.
+    </p>
+    <p>
+        Marc Bolan, frontman för T. Rex, anses vara en av glamrockens grundare. Bolan bytte till elektriska instrument i slutet av 60-talet och banade väg för genren.
+    </p>
+<img src="/marcbolan.png" alt="Marc Bolan">
+    <h2>Marc Bolan och "Top of the Pops"</h2>
+    <p>
+        Ett betydelsefullt ögonblick var Marc Bolans uppträdande på "Top of the Pops" i mars 1971. Där framförde han låten "Hot Love" iförd glitter och satiner, vilket blev starten på glamrockens visuella stil.
+    </p>
+    <p>
+        Hans stil tillät en ny generation att börja utforska idéer om androgynitet och lekfullhet.
+    </p>
+
+    <h2>David Bowie och Ziggy Stardust</h2>
+    <p>
+        År 1971 utvecklade David Bowie sin ikoniska Ziggy Stardust-persona. Genom att använda makeup, mimik och teatraliska inslag blev han en av glamrockens frontfigurer.
+    </p>
+    <p>
+        Bowie blev internationellt känd och hjälpte till att forma genren tillsammans med Bolan.
+    </p>
+<img src="/bowie2.png" alt="David Bowie">
+    <h2>Huvuddrag i Glamrockens Historia</h2>
+    <ul>
+        <li>Marc Bolan anses vara glamrockens grundare och hans uppträdande 1971 markerade genrens början.</li>
+        <li>David Bowie, med sin Ziggy Stardust, blev en internationell superstjärna och en ledare för glamrockens rörelse.</li>
+        <li>Andra viktiga band var Roxy Music, Sweet, Slade och Mott the Hoople, som följde i deras fotspår.</li>
+        <li>Genren präglades av extravagant mode, glitter, makeup och en lekfull, androgyn image.</li>
+    </ul>
+<div class="grid grid-cols-4 gap-5"><img src="/johnschilren.png" alt="Johns Children, Marc Bolan"> <img src="/bowie3.png" alt="David Bowie"> <img src="/queen.png" alt="Queen"> <img src="/queenconsert.png" alt="Queen konsert"></div> 
+    <h2>Glamrockens Framgång</h2>
+    <p>
+        I Storbritannien blev glamrock snabbt en populär rörelse, med stora hits som Slades "Merry Xmas Everybody" och Wizzards "I Wish It Could Be Christmas Everyday".
+    </p>
+    <p>
+        Även band som Queen och Elton John tog till sig glamrockens stil under 70-talet, vilket cementerade genrens plats i musikhistorien.
+    </p>
+<img src="/eltonjohn.png" alt="Elton John">
+    <h2>Glamrockens Tyngre Variant</h2>
+    <p>
+        En tyngre form av glamrock, med fokus på gitarriff och liveframträdanden, representerades av band som Slade och Mott the Hoople. Deras inflytande kan ses i band som Def Leppard och Kiss.
+    </p>
+
+    <h2>Punkrock och Glamrockens Nedgång</h2>
+    <p>
+        Med punkrockens framväxt under slutet av 70-talet började glamrockens popularitet avta, även om dess visuella och musikaliska arv fortsatte att influera framtida genrer.
+    </p>
+</article>
+
 </MainLayout>
